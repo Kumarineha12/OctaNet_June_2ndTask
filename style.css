@@ -1,0 +1,112 @@
+
+*{
+    margin:0px;
+    padding: 0;
+    font-family:'Poppins-s',sans-serif;
+    box-sizing: border-box;
+}
+body{
+   
+   /* background: linear-gradient(130deg, #5257ec,#61ddff   ); */ 
+   background-size: cover;
+   /* background-position: center;*/
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;  
+     background-image: url('pi.webp') ;
+    
+   
+    
+     
+}
+.container{
+    width: 45%;
+    min-width: 400px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    padding: 30px 40px;
+}
+#statement{
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px 10px 10px;
+   /* padding: 50px;*/
+    margin: 0px;
+    border-radius: 10px;
+   /* box-shadow: 0 5px 10px #111111;*/
+   box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+
+}
+#statement input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px light #111111;
+    padding: 19px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+   
+}
+#statement input:focus{
+    outline: none;
+    border-color: #111111;
+    padding: 20px;
+}
+
+#statement button{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 40px;   
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ec9752;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+}
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+   
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: #ffffff;
+    height: 40px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #ec5252;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
